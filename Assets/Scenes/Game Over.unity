@@ -722,7 +722,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'You Scored: 000000000'
+  m_text: 'You Scored: test'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c2b1546a9dc7bf24386b708519aba391, type: 2}
   m_sharedMaterial: {fileID: 5964112897305853442, guid: c2b1546a9dc7bf24386b708519aba391, type: 2}
@@ -872,6 +872,7 @@ GameObject:
   - component: {fileID: 802076493}
   - component: {fileID: 802076492}
   - component: {fileID: 802076491}
+  - component: {fileID: 802076495}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -965,6 +966,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &802076495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 802076490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c615f3b1766c58a4ea1d69fc24379f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 685172807}
 --- !u!114 &879719858 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2057773696812768547, guid: 18e2b39161814d648a08f04bd89ea31a, type: 3}
